@@ -1,0 +1,1955 @@
+
+> tailwindcss@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.13
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/17) ...
+   Generating static pages (4/17) 
+Error processing blue.jpg.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:05 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=11',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing blue.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:05 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=17',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/login". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at o (E:\comerce\.next\server\chunks\955.js:1:16042)
+    at c (E:\comerce\.next\server\chunks\955.js:1:27025)
+    at m (E:\comerce\.next\server\app\admin\login\page.js:1:3634)
+    at nj (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:46251)
+    at nM (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47571)
+    at nN (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+    at nI (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47010)
+    at nM (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:47717)
+    at nM (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:61546)
+    at nN (E:\comerce\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/admin/login". Read more: https://nextjs.org/docs/messages/prerender-error
+
+   Generating static pages (8/17) 
+Error processing car.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:05 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing couple.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:05 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+   Generating static pages (12/17) 
+Error processing laptop1.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:06 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=10',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing laptop2.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:06 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing laptop3.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:06 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing laptop4.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:06 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=10',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing last.jpg.png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:06 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '45',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '45',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing last2.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing last3.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=11',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing new.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing new1.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing new2.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '45',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=11',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '45',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing new3.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:07 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '44',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '44',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:08 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=10',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic1.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:08 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic2.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:08 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic3.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:08 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic4.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:08 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '45',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '45',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic5.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic6.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=7',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing pic7.jpg: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (10).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (11).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '45',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '45',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (12).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:09 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '44',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=8',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '44',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-6mxc6',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (13).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:10 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '49',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '49',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (14).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:10 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '48',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=20',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '48',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ltdtg',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (15).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:10 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '47',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '47',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (16).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:10 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '46',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '46',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+Error processing product-cover-5 (17).png: t_ [Error]: transaction failed: Insufficient permissions; permission "create" required:
+- Insufficient permissions; permission "create" required
+    at onResponse (E:\comerce\.next\server\app\api\seed\route.js:10:905)
+    at i (E:\comerce\.next\server\app\api\seed\route.js:2:2878)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3077
+    at E:\comerce\.next\server\app\api\seed\route.js:2:3186
+    at E:\comerce\.next\server\app\api\seed\route.js:2:1410
+    at u.onreadystatechange (E:\comerce\.next\server\app\api\seed\route.js:2:1613)
+    at E:\comerce\.next\server\app\api\seed\route.js:2:237
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  response: {
+    body: { error: [Object] },
+    url: 'https://u9ap71p1.api.sanity.io/v2024-01-01/data/mutate/production?returnIds=true&returnDocuments=true&visibility=sync',
+    method: 'POST',
+    headers: [Object: null prototype] {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=utf-8',
+      date: 'Thu, 09 Apr 2026 08:15:10 GMT',
+      'ratelimit-limit': '50',
+      'ratelimit-remaining': '45',
+      'ratelimit-reset': '1',
+      'sanity-gateway': 'k8s-gcp-eu-w1-prod-ing-01',
+      'sanity-inflight-current': '0',
+      'sanity-inflight-limit': '100',
+      'server-timing': 'api;dur=9',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'Accept-Encoding, origin',
+      via: '1.1 google',
+      'x-ratelimit-limit-second': '50',
+      'x-ratelimit-remaining-second': '45',
+      'x-sanity-shard': 'gcp-eu-w1-01-prod-1023',
+      'x-served-by': 'gradient-web-8d77f9dc-ldw5r',
+      xkey: 'project-u9ap71p1, project-u9ap71p1-production'
+    },
+    statusCode: 403,
+    statusMessage: 'Forbidden'
+  },
+  statusCode: 403,
+  responseBody: '{\n' +
+    '  "error": {\n' +
+    '    "description": "transaction failed: Insufficient permissions; permission \\"create\\" required",\n' +
+    '    "items": [\n' +
+    '      {\n' +
+    '        "error": {\n' +
+    '          "description": "Insufficient permissions; permission \\"create\\" required",\n' +
+    '          "permission": "create",\n' +
+    '          "type": "insufficientPermissionsError"\n' +
+    '        },\n' +
+    '        "index": 0\n' +
+    '      }\n' +
+    '    ],\n' +
+    '    "type": "mutationError"\n' +
+    '  }\n' +
+    '}',
+  details: {
+    description: 'transaction failed: Insufficient permissions; permission "create" required',
+    items: [ [Object] ],
+    type: 'mutationError'
+  }
+}
+ ✓ Generating static pages (17/17)
+
+> Export encountered errors on following paths:
+	/admin/login/page: /admin/login
